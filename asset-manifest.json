@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tuempleoenit/static/css/main.b1de1158.chunk.css",
+    "main.js": "/tuempleoenit/static/js/main.85d0d083.chunk.js",
+    "main.js.map": "/tuempleoenit/static/js/main.85d0d083.chunk.js.map",
+    "runtime-main.js": "/tuempleoenit/static/js/runtime-main.cf82c9b5.js",
+    "runtime-main.js.map": "/tuempleoenit/static/js/runtime-main.cf82c9b5.js.map",
+    "static/js/2.a2365dab.chunk.js": "/tuempleoenit/static/js/2.a2365dab.chunk.js",
+    "static/js/2.a2365dab.chunk.js.map": "/tuempleoenit/static/js/2.a2365dab.chunk.js.map",
+    "index.html": "/tuempleoenit/index.html",
+    "precache-manifest.3debfd1637da5f448947816f85ad7a5d.js": "/tuempleoenit/precache-manifest.3debfd1637da5f448947816f85ad7a5d.js",
+    "service-worker.js": "/tuempleoenit/service-worker.js",
+    "static/css/main.b1de1158.chunk.css.map": "/tuempleoenit/static/css/main.b1de1158.chunk.css.map",
+    "static/js/2.a2365dab.chunk.js.LICENSE.txt": "/tuempleoenit/static/js/2.a2365dab.chunk.js.LICENSE.txt",
+    "static/media/Practico.svg": "/tuempleoenit/static/media/Practico.8293fd34.svg",
+    "static/media/ambiente-relajado.svg": "/tuempleoenit/static/media/ambiente-relajado.7aa72156.svg",
+    "static/media/finanzas.svg": "/tuempleoenit/static/media/finanzas.a845f115.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf82c9b5.js",
+    "static/js/2.a2365dab.chunk.js",
+    "static/css/main.b1de1158.chunk.css",
+    "static/js/main.85d0d083.chunk.js"
+  ]
+}
