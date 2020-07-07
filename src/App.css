@@ -1,38 +1,121 @@
-.App {
+/* HOMEPAGE MOBILE */
+
+/* HEADER */
+
+.header {
+  background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-color: #42bfdd;
+  min-height: 100vh;
+  width: 100%;
+  background-blend-mode: multiply;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.titulo {
+  margin: 0;
+  text-align: center;
+  padding-top: 40vh;
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+}
+.subtitulo {
+  font-size: 1.75rem;
+  color: #ffffff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* FOOTER */
+.footer {
+  min-height: 40vh;
+  background-color: #084b83;
+  opacity: 0.8;
+  text-align: center;
+}
+.linkfooter {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-sello {
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.copyright {
+  color: #ffffff;
+}
+.footer-icon {
+  font-size: 1.5rem;
+}
+.footer-icon:hover {
+  color: #42bfdd;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* WHY US */
+.whyUs {
+  padding-top: 3em;
+  text-align: center;
+  margin: 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  background-color: #f0f6f6;
+}
+.whyUs-titulo {
+  color: #084b83;
+  margin: 1em 0em;
+  font-size: 2rem;
+}
+.razones {
+  margin: 1em;
+}
+.titulo-razones {
+  color: #084b83;
+  margin: 1em;
+}
+.parrafos-razones {
+  color: #2f2e41;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.svg {
+  height: 30vh;
+  margin: 1em 0em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* HOMEPAGE DESKTOP */
+@media (min-width: 600px) {
+  .titulo {
+    font-size: 6em;
   }
-  to {
-    transform: rotate(360deg);
+  .whyUs-titulo {
+    font-size: 3rem;
+  }
+  .razones {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+  .parrafos-razones {
+    margin: 0em 2.5em;
+    color: #2f2e41;
+    font-weight: lighter;
+    font-size: 1rem;
+  }
+  .footer-sello {
+    font-size: 3rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+  .links-footer {
+    padding-top: 2em;
+    line-height: 25px;
   }
 }
